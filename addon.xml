@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id = "plugin.video.OTT" name = "OTT" version = "0.0.1" provider-name = "Thái-Giáp">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Viet Nam Live TV</summary>
+    <description lang="en_gb">Chạy thử</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>http://i.imgur.com/Pii7HgU.png</icon>
+        <fanart>'http://i.imgur.com/BBnHsL5.png'</fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
